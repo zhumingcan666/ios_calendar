@@ -1,0 +1,978 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		903F54CB2BD3EF340015D727 /* timeRemind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903F54CA2BD3EF340015D727 /* timeRemind.swift */; };
+		9066C15A2BC6B41E005C5765 /* CalendarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9066C1592BC6B41E005C5765 /* CalendarApp.swift */; };
+		9066C15C2BC6B41E005C5765 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9066C15B2BC6B41E005C5765 /* ContentView.swift */; };
+		9066C15E2BC6B420005C5765 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9066C15D2BC6B420005C5765 /* Assets.xcassets */; };
+		9066C1612BC6B420005C5765 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9066C1602BC6B420005C5765 /* Preview Assets.xcassets */; };
+		9066C16B2BC6B420005C5765 /* CalendarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9066C16A2BC6B420005C5765 /* CalendarTests.swift */; };
+		9066C1752BC6B420005C5765 /* CalendarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9066C1742BC6B420005C5765 /* CalendarUITests.swift */; };
+		9066C1772BC6B420005C5765 /* CalendarUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9066C1762BC6B420005C5765 /* CalendarUITestsLaunchTests.swift */; };
+		9066C1882BC810CA005C5765 /* itemWindowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9066C1872BC810CA005C5765 /* itemWindowView.swift */; };
+		9066C18C2BC81130005C5765 /* calendarMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9066C1832BC6B612005C5765 /* calendarMain.swift */; };
+		9066C18E2BC823CA005C5765 /* selectedDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9066C18D2BC823CA005C5765 /* selectedDate.swift */; };
+		90AD98152BD10DD400E343A4 /* selectedTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AD98142BD10DD400E343A4 /* selectedTimeView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9066C1672BC6B420005C5765 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9066C14E2BC6B41E005C5765 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9066C1552BC6B41E005C5765;
+			remoteInfo = Calendar;
+		};
+		9066C1712BC6B420005C5765 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9066C14E2BC6B41E005C5765 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9066C1552BC6B41E005C5765;
+			remoteInfo = Calendar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		903F54CA2BD3EF340015D727 /* timeRemind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timeRemind.swift; sourceTree = "<group>"; };
+		9066C1562BC6B41E005C5765 /* Calendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9066C1592BC6B41E005C5765 /* CalendarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarApp.swift; sourceTree = "<group>"; };
+		9066C15B2BC6B41E005C5765 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9066C15D2BC6B420005C5765 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9066C1602BC6B420005C5765 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9066C1662BC6B420005C5765 /* CalendarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalendarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9066C16A2BC6B420005C5765 /* CalendarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarTests.swift; sourceTree = "<group>"; };
+		9066C1702BC6B420005C5765 /* CalendarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalendarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9066C1742BC6B420005C5765 /* CalendarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarUITests.swift; sourceTree = "<group>"; };
+		9066C1762BC6B420005C5765 /* CalendarUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9066C1832BC6B612005C5765 /* calendarMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calendarMain.swift; sourceTree = "<group>"; };
+		9066C1872BC810CA005C5765 /* itemWindowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = itemWindowView.swift; sourceTree = "<group>"; };
+		9066C18D2BC823CA005C5765 /* selectedDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = selectedDate.swift; sourceTree = "<group>"; };
+		90AD97A12BC96FBF00E343A4 /* FirebaseABTesting.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:EQHXZ8M8AV:Google LLC"; lastKnownFileType = wrapper.xcframework; path = FirebaseABTesting.xcframework; sourceTree = "<group>"; };
+		90AD97A32BC96FBF00E343A4 /* FBLPromises.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:EQHXZ8M8AV:Google LLC"; lastKnownFileType = wrapper.xcframework; path = FBLPromises.xcframework; sourceTree = "<group>"; };
+		90AD97A42BC96FBF00E343A4 /* FirebaseAnalytics.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:EQHXZ8M8AV:Google LLC"; lastKnownFileType = wrapper.xcframework; path = FirebaseAnalytics.xcframework; sourceTree = "<group>"; };
+		90AD97A52BC96FBF00E343A4 /* FirebaseCore.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:EQHXZ8M8AV:Google LLC"; lastKnownFileType = wrapper.xcframework; path = FirebaseCore.xcframework; sourceTree = "<group>"; };
+		90AD97A62BC96FBF00E343A4 /* FirebaseCoreInternal.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:EQHXZ8M8AV:Google LLC"; lastKnownFileType = wrapper.xcframework; path = FirebaseCoreInternal.xcframework; sourceTree = "<group>"; };
+		90AD97A72BC96FBF00E343A4 /* FirebaseInstallations.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:EQHXZ8M8AV:Google LLC"; lastKnownFileType = wrapper.xcframework; path = FirebaseInstallations.xcframework; sourceTree = "<group>"; };
+		90AD97A82BC96FBF00E343A4 /* GoogleAppMeasurement.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:EQHXZ8M8AV:Google LLC"; lastKnownFileType = wrapper.xcframework; path = GoogleAppMeasurement.xcframework; sourceTree = "<group>"; };
+		90AD97A92BC96FBF00E343A4 /* GoogleAppMeasurementIdentitySupport.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:EQHXZ8M8AV:Google LLC"; lastKnownFileType = wrapper.xcframework; path = GoogleAppMeasurementIdentitySupport.xcframework; sourceTree = "<group>"; };
+		90AD97AA2BC96FBF00E343A4 /* GoogleUtilities.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:EQHXZ8M8AV:Google LLC"; lastKnownFileType = wrapper.xcframework; path = GoogleUtilities.xcframework; sourceTree = "<group>"; };
+		90AD97AB2BC96FBF00E343A4 /* nanopb.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:EQHXZ8M8AV:Google LLC"; lastKnownFileType = wrapper.xcframework; path = nanopb.xcframework; sourceTree = "<group>"; };
+		90AD97AD2BC96FBF00E343A4 /* FirebaseAnalyticsOnDeviceConversion.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:EQHXZ8M8AV:Google LLC"; lastKnownFileType = wrapper.xcframework; path = FirebaseAnalyticsOnDeviceConversion.xcframework; sourceTree = "<group>"; };
+		90AD97AE2BC96FBF00E343A4 /* GoogleAppMeasurementOnDeviceConversion.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:EQHXZ8M8AV:Google LLC"; lastKnownFileType = wrapper.xcframework; path = GoogleAppMeasurementOnDeviceConversion.xcframework; sourceTree = "<group>"; };
+		90AD97B02BC96FBF00E343A4 /* AppCheckCore.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:EQHXZ8M8AV:Google LLC"; lastKnownFileType = wrapper.xcframework; path = AppCheckCore.xcframework; sourceTree = "<group>"; };
+		90AD97B12BC96FBF00E343A4 /* FirebaseAppCheck.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:EQHXZ8M8AV:Google LLC"; lastKnownFileType = wrapper.xcframework; path = FirebaseAppCheck.xcframework; sourceTree = "<group>"; };
+		90AD97B22BC96FBF00E343A4 /* FirebaseAppCheckInterop.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:EQHXZ8M8AV:Google LLC"; lastKnownFileType = wrapper.xcframework; path = FirebaseAppCheckInterop.xcframework; sourceTree = "<group>"; };
+		90AD97B42BC96FBF00E343A4 /* FirebaseAppDistribution.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:EQHXZ8M8AV:Google LLC"; lastKnownFileType = wrapper.xcframework; path = FirebaseAppDistribution.xcframework; sourceTree = "<group>"; };
+		90AD97B62BC96FBF00E343A4 /* FirebaseAppCheckInterop.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:EQHXZ8M8AV:Google LLC"; lastKnownFileType = wrapper.xcframework; path = FirebaseAppCheckInterop.xcframework; sourceTree = "<group>"; };
+		90AD97B72BC96FBF00E343A4 /* FirebaseAuth.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:EQHXZ8M8AV:Google LLC"; lastKnownFileType = wrapper.xcframework; path = FirebaseAuth.xcframework; sourceTree = "<group>"; };
+		90AD97B82BC96FBF00E343A4 /* GTMSessionFetcher.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:EQHXZ8M8AV:Google LLC"; lastKnownFileType = wrapper.xcframework; path = GTMSessionFetcher.xcframework; sourceTree = "<group>"; };
+		90AD97B92BC96FBF00E343A4 /* RecaptchaInterop.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:EQHXZ8M8AV:Google LLC"; lastKnownFileType = wrapper.xcframework; path = RecaptchaInterop.xcframework; sourceTree = "<group>"; };
+		90AD97BB2BC96FBF00E343A4 /* FirebaseCoreExtension.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:EQHXZ8M8AV:Google LLC"; lastKnownFileType = wrapper.xcframework; path = FirebaseCoreExtension.xcframework; sourceTree = "<group>"; };
+		90AD97BC2BC96FBF00E343A4 /* FirebaseCrashlytics.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:EQHXZ8M8AV:Google LLC"; lastKnownFileType = wrapper.xcframework; path = FirebaseCrashlytics.xcframework; sourceTree = "<group>"; };
+		90AD97BD2BC96FBF00E343A4 /* FirebaseRemoteConfigInterop.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:EQHXZ8M8AV:Google LLC"; lastKnownFileType = wrapper.xcframework; path = FirebaseRemoteConfigInterop.xcframework; sourceTree = "<group>"; };
+		90AD97BE2BC96FBF00E343A4 /* FirebaseSessions.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:EQHXZ8M8AV:Google LLC"; lastKnownFileType = wrapper.xcframework; path = FirebaseSessions.xcframework; sourceTree = "<group>"; };
+		90AD97BF2BC96FBF00E343A4 /* GoogleDataTransport.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:EQHXZ8M8AV:Google LLC"; lastKnownFileType = wrapper.xcframework; path = GoogleDataTransport.xcframework; sourceTree = "<group>"; };
+		90AD97C02BC96FBF00E343A4 /* Promises.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:EQHXZ8M8AV:Google LLC"; lastKnownFileType = wrapper.xcframework; path = Promises.xcframework; sourceTree = "<group>"; };
+		90AD97C12BC96FBF00E343A4 /* run */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = run; sourceTree = "<group>"; };
+		90AD97C22BC96FBF00E343A4 /* upload-symbols */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = "upload-symbols"; sourceTree = "<group>"; };
+		90AD97C42BC96FBF00E343A4 /* FirebaseAppCheckInterop.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:EQHXZ8M8AV:Google LLC"; lastKnownFileType = wrapper.xcframework; path = FirebaseAppCheckInterop.xcframework; sourceTree = "<group>"; };
+		90AD97C52BC96FBF00E343A4 /* FirebaseDatabase.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:EQHXZ8M8AV:Google LLC"; lastKnownFileType = wrapper.xcframework; path = FirebaseDatabase.xcframework; sourceTree = "<group>"; };
+		90AD97C62BC96FBF00E343A4 /* FirebaseSharedSwift.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:EQHXZ8M8AV:Google LLC"; lastKnownFileType = wrapper.xcframework; path = FirebaseSharedSwift.xcframework; sourceTree = "<group>"; };
+		90AD97C72BC96FBF00E343A4 /* leveldb.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:EQHXZ8M8AV:Google LLC"; lastKnownFileType = wrapper.xcframework; path = leveldb.xcframework; sourceTree = "<group>"; };
+		90AD97C92BC96FBF00E343A4 /* FirebaseDynamicLinks.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:EQHXZ8M8AV:Google LLC"; lastKnownFileType = wrapper.xcframework; path = FirebaseDynamicLinks.xcframework; sourceTree = "<group>"; };
+		90AD97CB2BC96FBF00E343A4 /* gRPCCertificates-Cpp.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = "gRPCCertificates-Cpp.bundle"; sourceTree = "<group>"; };
+		90AD97CD2BC96FBF00E343A4 /* absl.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:EQHXZ8M8AV:Google LLC"; lastKnownFileType = wrapper.xcframework; path = absl.xcframework; sourceTree = "<group>"; };
+		90AD97CE2BC96FBF00E343A4 /* FirebaseAppCheckInterop.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:EQHXZ8M8AV:Google LLC"; lastKnownFileType = wrapper.xcframework; path = FirebaseAppCheckInterop.xcframework; sourceTree = "<group>"; };
+		90AD97CF2BC96FBF00E343A4 /* FirebaseCoreExtension.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:EQHXZ8M8AV:Google LLC"; lastKnownFileType = wrapper.xcframework; path = FirebaseCoreExtension.xcframework; sourceTree = "<group>"; };
+		90AD97D02BC96FBF00E343A4 /* FirebaseFirestore.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:EQHXZ8M8AV:Google LLC"; lastKnownFileType = wrapper.xcframework; path = FirebaseFirestore.xcframework; sourceTree = "<group>"; };
+		90AD97D12BC96FBF00E343A4 /* FirebaseFirestoreInternal.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:EQHXZ8M8AV:Google LLC"; lastKnownFileType = wrapper.xcframework; path = FirebaseFirestoreInternal.xcframework; sourceTree = "<group>"; };
+		90AD97D22BC96FBF00E343A4 /* FirebaseSharedSwift.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:EQHXZ8M8AV:Google LLC"; lastKnownFileType = wrapper.xcframework; path = FirebaseSharedSwift.xcframework; sourceTree = "<group>"; };
+		90AD97D32BC96FBF00E343A4 /* grpc.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:EQHXZ8M8AV:Google LLC"; lastKnownFileType = wrapper.xcframework; path = grpc.xcframework; sourceTree = "<group>"; };
+		90AD97D42BC96FBF00E343A4 /* grpcpp.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:EQHXZ8M8AV:Google LLC"; lastKnownFileType = wrapper.xcframework; path = grpcpp.xcframework; sourceTree = "<group>"; };
+		90AD97D52BC96FBF00E343A4 /* leveldb.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:EQHXZ8M8AV:Google LLC"; lastKnownFileType = wrapper.xcframework; path = leveldb.xcframework; sourceTree = "<group>"; };
+		90AD97D62BC96FBF00E343A4 /* openssl_grpc.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:EQHXZ8M8AV:Google LLC"; lastKnownFileType = wrapper.xcframework; path = openssl_grpc.xcframework; sourceTree = "<group>"; };
+		90AD97D82BC96FBF00E343A4 /* FirebaseAppCheckInterop.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:EQHXZ8M8AV:Google LLC"; lastKnownFileType = wrapper.xcframework; path = FirebaseAppCheckInterop.xcframework; sourceTree = "<group>"; };
+		90AD97D92BC96FBF00E343A4 /* FirebaseAuthInterop.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:EQHXZ8M8AV:Google LLC"; lastKnownFileType = wrapper.xcframework; path = FirebaseAuthInterop.xcframework; sourceTree = "<group>"; };
+		90AD97DA2BC96FBF00E343A4 /* FirebaseCoreExtension.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:EQHXZ8M8AV:Google LLC"; lastKnownFileType = wrapper.xcframework; path = FirebaseCoreExtension.xcframework; sourceTree = "<group>"; };
+		90AD97DB2BC96FBF00E343A4 /* FirebaseFunctions.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:EQHXZ8M8AV:Google LLC"; lastKnownFileType = wrapper.xcframework; path = FirebaseFunctions.xcframework; sourceTree = "<group>"; };
+		90AD97DC2BC96FBF00E343A4 /* FirebaseMessagingInterop.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:EQHXZ8M8AV:Google LLC"; lastKnownFileType = wrapper.xcframework; path = FirebaseMessagingInterop.xcframework; sourceTree = "<group>"; };
+		90AD97DD2BC96FBF00E343A4 /* FirebaseSharedSwift.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:EQHXZ8M8AV:Google LLC"; lastKnownFileType = wrapper.xcframework; path = FirebaseSharedSwift.xcframework; sourceTree = "<group>"; };
+		90AD97DE2BC96FBF00E343A4 /* GTMSessionFetcher.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:EQHXZ8M8AV:Google LLC"; lastKnownFileType = wrapper.xcframework; path = GTMSessionFetcher.xcframework; sourceTree = "<group>"; };
+		90AD97E02BC96FBF00E343A4 /* InAppMessagingDisplayResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = InAppMessagingDisplayResources.bundle; sourceTree = "<group>"; };
+		90AD97E22BC96FBF00E343A4 /* FirebaseABTesting.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:EQHXZ8M8AV:Google LLC"; lastKnownFileType = wrapper.xcframework; path = FirebaseABTesting.xcframework; sourceTree = "<group>"; };
+		90AD97E32BC96FBF00E343A4 /* FirebaseInAppMessaging.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:EQHXZ8M8AV:Google LLC"; lastKnownFileType = wrapper.xcframework; path = FirebaseInAppMessaging.xcframework; sourceTree = "<group>"; };
+		90AD97E52BC96FBF00E343A4 /* FirebaseMessaging.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:EQHXZ8M8AV:Google LLC"; lastKnownFileType = wrapper.xcframework; path = FirebaseMessaging.xcframework; sourceTree = "<group>"; };
+		90AD97E62BC96FBF00E343A4 /* GoogleDataTransport.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:EQHXZ8M8AV:Google LLC"; lastKnownFileType = wrapper.xcframework; path = GoogleDataTransport.xcframework; sourceTree = "<group>"; };
+		90AD97E82BC96FBF00E343A4 /* FirebaseMLModelDownloader.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:EQHXZ8M8AV:Google LLC"; lastKnownFileType = wrapper.xcframework; path = FirebaseMLModelDownloader.xcframework; sourceTree = "<group>"; };
+		90AD97E92BC96FBF00E343A4 /* GoogleDataTransport.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:EQHXZ8M8AV:Google LLC"; lastKnownFileType = wrapper.xcframework; path = GoogleDataTransport.xcframework; sourceTree = "<group>"; };
+		90AD97EA2BC96FBF00E343A4 /* SwiftProtobuf.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:EQHXZ8M8AV:Google LLC"; lastKnownFileType = wrapper.xcframework; path = SwiftProtobuf.xcframework; sourceTree = "<group>"; };
+		90AD97EC2BC96FBF00E343A4 /* FirebaseABTesting.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:EQHXZ8M8AV:Google LLC"; lastKnownFileType = wrapper.xcframework; path = FirebaseABTesting.xcframework; sourceTree = "<group>"; };
+		90AD97ED2BC96FBF00E343A4 /* FirebaseCoreExtension.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:EQHXZ8M8AV:Google LLC"; lastKnownFileType = wrapper.xcframework; path = FirebaseCoreExtension.xcframework; sourceTree = "<group>"; };
+		90AD97EE2BC96FBF00E343A4 /* FirebasePerformance.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:EQHXZ8M8AV:Google LLC"; lastKnownFileType = wrapper.xcframework; path = FirebasePerformance.xcframework; sourceTree = "<group>"; };
+		90AD97EF2BC96FBF00E343A4 /* FirebaseRemoteConfig.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:EQHXZ8M8AV:Google LLC"; lastKnownFileType = wrapper.xcframework; path = FirebaseRemoteConfig.xcframework; sourceTree = "<group>"; };
+		90AD97F02BC96FBF00E343A4 /* FirebaseRemoteConfigInterop.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:EQHXZ8M8AV:Google LLC"; lastKnownFileType = wrapper.xcframework; path = FirebaseRemoteConfigInterop.xcframework; sourceTree = "<group>"; };
+		90AD97F12BC96FBF00E343A4 /* FirebaseSessions.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:EQHXZ8M8AV:Google LLC"; lastKnownFileType = wrapper.xcframework; path = FirebaseSessions.xcframework; sourceTree = "<group>"; };
+		90AD97F22BC96FBF00E343A4 /* FirebaseSharedSwift.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:EQHXZ8M8AV:Google LLC"; lastKnownFileType = wrapper.xcframework; path = FirebaseSharedSwift.xcframework; sourceTree = "<group>"; };
+		90AD97F32BC96FBF00E343A4 /* GoogleDataTransport.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:EQHXZ8M8AV:Google LLC"; lastKnownFileType = wrapper.xcframework; path = GoogleDataTransport.xcframework; sourceTree = "<group>"; };
+		90AD97F42BC96FBF00E343A4 /* Promises.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:EQHXZ8M8AV:Google LLC"; lastKnownFileType = wrapper.xcframework; path = Promises.xcframework; sourceTree = "<group>"; };
+		90AD97F62BC96FBF00E343A4 /* FirebaseABTesting.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:EQHXZ8M8AV:Google LLC"; lastKnownFileType = wrapper.xcframework; path = FirebaseABTesting.xcframework; sourceTree = "<group>"; };
+		90AD97F72BC96FBF00E343A4 /* FirebaseRemoteConfig.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:EQHXZ8M8AV:Google LLC"; lastKnownFileType = wrapper.xcframework; path = FirebaseRemoteConfig.xcframework; sourceTree = "<group>"; };
+		90AD97F82BC96FBF00E343A4 /* FirebaseRemoteConfigInterop.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:EQHXZ8M8AV:Google LLC"; lastKnownFileType = wrapper.xcframework; path = FirebaseRemoteConfigInterop.xcframework; sourceTree = "<group>"; };
+		90AD97F92BC96FBF00E343A4 /* FirebaseSharedSwift.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:EQHXZ8M8AV:Google LLC"; lastKnownFileType = wrapper.xcframework; path = FirebaseSharedSwift.xcframework; sourceTree = "<group>"; };
+		90AD97FB2BC96FBF00E343A4 /* FirebaseAppCheckInterop.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:EQHXZ8M8AV:Google LLC"; lastKnownFileType = wrapper.xcframework; path = FirebaseAppCheckInterop.xcframework; sourceTree = "<group>"; };
+		90AD97FC2BC96FBF00E343A4 /* FirebaseAuthInterop.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:EQHXZ8M8AV:Google LLC"; lastKnownFileType = wrapper.xcframework; path = FirebaseAuthInterop.xcframework; sourceTree = "<group>"; };
+		90AD97FD2BC96FBF00E343A4 /* FirebaseCoreExtension.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:EQHXZ8M8AV:Google LLC"; lastKnownFileType = wrapper.xcframework; path = FirebaseCoreExtension.xcframework; sourceTree = "<group>"; };
+		90AD97FE2BC96FBF00E343A4 /* FirebaseStorage.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:EQHXZ8M8AV:Google LLC"; lastKnownFileType = wrapper.xcframework; path = FirebaseStorage.xcframework; sourceTree = "<group>"; };
+		90AD97FF2BC96FBF00E343A4 /* GTMSessionFetcher.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:EQHXZ8M8AV:Google LLC"; lastKnownFileType = wrapper.xcframework; path = GTMSessionFetcher.xcframework; sourceTree = "<group>"; };
+		90AD98012BC96FBF00E343A4 /* GoogleMobileAds.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:EQHXZ8M8AV:Google LLC"; lastKnownFileType = wrapper.xcframework; path = GoogleMobileAds.xcframework; sourceTree = "<group>"; };
+		90AD98022BC96FBF00E343A4 /* UserMessagingPlatform.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:EQHXZ8M8AV:Google LLC"; lastKnownFileType = wrapper.xcframework; path = UserMessagingPlatform.xcframework; sourceTree = "<group>"; };
+		90AD98042BC96FBF00E343A4 /* AppAuth.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:EQHXZ8M8AV:Google LLC"; lastKnownFileType = wrapper.xcframework; path = AppAuth.xcframework; sourceTree = "<group>"; };
+		90AD98052BC96FBF00E343A4 /* GoogleSignIn.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:EQHXZ8M8AV:Google LLC"; lastKnownFileType = wrapper.xcframework; path = GoogleSignIn.xcframework; sourceTree = "<group>"; };
+		90AD98062BC96FBF00E343A4 /* GTMAppAuth.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:EQHXZ8M8AV:Google LLC"; lastKnownFileType = wrapper.xcframework; path = GTMAppAuth.xcframework; sourceTree = "<group>"; };
+		90AD98072BC96FBF00E343A4 /* GTMSessionFetcher.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:EQHXZ8M8AV:Google LLC"; lastKnownFileType = wrapper.xcframework; path = GTMSessionFetcher.xcframework; sourceTree = "<group>"; };
+		90AD98092BC96FBF00E343A4 /* Firebase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Firebase.h; sourceTree = "<group>"; };
+		90AD980A2BC96FBF00E343A4 /* METADATA.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = METADATA.md; sourceTree = "<group>"; };
+		90AD980B2BC96FBF00E343A4 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		90AD980C2BC96FBF00E343A4 /* NOTICES */ = {isa = PBXFileReference; lastKnownFileType = text; path = NOTICES; sourceTree = "<group>"; };
+		90AD980D2BC96FBF00E343A4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		90AD98142BD10DD400E343A4 /* selectedTimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = selectedTimeView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9066C1532BC6B41E005C5765 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9066C1632BC6B420005C5765 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9066C16D2BC6B420005C5765 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9066C14D2BC6B41E005C5765 = {
+			isa = PBXGroup;
+			children = (
+				9066C1582BC6B41E005C5765 /* Calendar */,
+				9066C1692BC6B420005C5765 /* CalendarTests */,
+				9066C1732BC6B420005C5765 /* CalendarUITests */,
+				9066C1572BC6B41E005C5765 /* Products */,
+				90AD97A02BC96FBF00E343A4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9066C1572BC6B41E005C5765 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9066C1562BC6B41E005C5765 /* Calendar.app */,
+				9066C1662BC6B420005C5765 /* CalendarTests.xctest */,
+				9066C1702BC6B420005C5765 /* CalendarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9066C1582BC6B41E005C5765 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				9066C1832BC6B612005C5765 /* calendarMain.swift */,
+				9066C1872BC810CA005C5765 /* itemWindowView.swift */,
+				90AD98142BD10DD400E343A4 /* selectedTimeView.swift */,
+				903F54CA2BD3EF340015D727 /* timeRemind.swift */,
+				9066C18D2BC823CA005C5765 /* selectedDate.swift */,
+				9066C1592BC6B41E005C5765 /* CalendarApp.swift */,
+				9066C15B2BC6B41E005C5765 /* ContentView.swift */,
+				9066C15D2BC6B420005C5765 /* Assets.xcassets */,
+				9066C15F2BC6B420005C5765 /* Preview Content */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		9066C15F2BC6B420005C5765 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9066C1602BC6B420005C5765 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9066C1692BC6B420005C5765 /* CalendarTests */ = {
+			isa = PBXGroup;
+			children = (
+				9066C16A2BC6B420005C5765 /* CalendarTests.swift */,
+			);
+			path = CalendarTests;
+			sourceTree = "<group>";
+		};
+		9066C1732BC6B420005C5765 /* CalendarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9066C1742BC6B420005C5765 /* CalendarUITests.swift */,
+				9066C1762BC6B420005C5765 /* CalendarUITestsLaunchTests.swift */,
+			);
+			path = CalendarUITests;
+			sourceTree = "<group>";
+		};
+		90AD97A02BC96FBF00E343A4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				90AD980E2BC96FBF00E343A4 /* Firebase */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		90AD97A22BC96FBF00E343A4 /* FirebaseABTesting */ = {
+			isa = PBXGroup;
+			children = (
+				90AD97A12BC96FBF00E343A4 /* FirebaseABTesting.xcframework */,
+			);
+			path = FirebaseABTesting;
+			sourceTree = "<group>";
+		};
+		90AD97AC2BC96FBF00E343A4 /* FirebaseAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				90AD97A32BC96FBF00E343A4 /* FBLPromises.xcframework */,
+				90AD97A42BC96FBF00E343A4 /* FirebaseAnalytics.xcframework */,
+				90AD97A52BC96FBF00E343A4 /* FirebaseCore.xcframework */,
+				90AD97A62BC96FBF00E343A4 /* FirebaseCoreInternal.xcframework */,
+				90AD97A72BC96FBF00E343A4 /* FirebaseInstallations.xcframework */,
+				90AD97A82BC96FBF00E343A4 /* GoogleAppMeasurement.xcframework */,
+				90AD97A92BC96FBF00E343A4 /* GoogleAppMeasurementIdentitySupport.xcframework */,
+				90AD97AA2BC96FBF00E343A4 /* GoogleUtilities.xcframework */,
+				90AD97AB2BC96FBF00E343A4 /* nanopb.xcframework */,
+			);
+			path = FirebaseAnalytics;
+			sourceTree = "<group>";
+		};
+		90AD97AF2BC96FBF00E343A4 /* FirebaseAnalyticsOnDeviceConversion */ = {
+			isa = PBXGroup;
+			children = (
+				90AD97AD2BC96FBF00E343A4 /* FirebaseAnalyticsOnDeviceConversion.xcframework */,
+				90AD97AE2BC96FBF00E343A4 /* GoogleAppMeasurementOnDeviceConversion.xcframework */,
+			);
+			path = FirebaseAnalyticsOnDeviceConversion;
+			sourceTree = "<group>";
+		};
+		90AD97B32BC96FBF00E343A4 /* FirebaseAppCheck */ = {
+			isa = PBXGroup;
+			children = (
+				90AD97B02BC96FBF00E343A4 /* AppCheckCore.xcframework */,
+				90AD97B12BC96FBF00E343A4 /* FirebaseAppCheck.xcframework */,
+				90AD97B22BC96FBF00E343A4 /* FirebaseAppCheckInterop.xcframework */,
+			);
+			path = FirebaseAppCheck;
+			sourceTree = "<group>";
+		};
+		90AD97B52BC96FBF00E343A4 /* FirebaseAppDistribution */ = {
+			isa = PBXGroup;
+			children = (
+				90AD97B42BC96FBF00E343A4 /* FirebaseAppDistribution.xcframework */,
+			);
+			path = FirebaseAppDistribution;
+			sourceTree = "<group>";
+		};
+		90AD97BA2BC96FBF00E343A4 /* FirebaseAuth */ = {
+			isa = PBXGroup;
+			children = (
+				90AD97B62BC96FBF00E343A4 /* FirebaseAppCheckInterop.xcframework */,
+				90AD97B72BC96FBF00E343A4 /* FirebaseAuth.xcframework */,
+				90AD97B82BC96FBF00E343A4 /* GTMSessionFetcher.xcframework */,
+				90AD97B92BC96FBF00E343A4 /* RecaptchaInterop.xcframework */,
+			);
+			path = FirebaseAuth;
+			sourceTree = "<group>";
+		};
+		90AD97C32BC96FBF00E343A4 /* FirebaseCrashlytics */ = {
+			isa = PBXGroup;
+			children = (
+				90AD97BB2BC96FBF00E343A4 /* FirebaseCoreExtension.xcframework */,
+				90AD97BC2BC96FBF00E343A4 /* FirebaseCrashlytics.xcframework */,
+				90AD97BD2BC96FBF00E343A4 /* FirebaseRemoteConfigInterop.xcframework */,
+				90AD97BE2BC96FBF00E343A4 /* FirebaseSessions.xcframework */,
+				90AD97BF2BC96FBF00E343A4 /* GoogleDataTransport.xcframework */,
+				90AD97C02BC96FBF00E343A4 /* Promises.xcframework */,
+				90AD97C12BC96FBF00E343A4 /* run */,
+				90AD97C22BC96FBF00E343A4 /* upload-symbols */,
+			);
+			path = FirebaseCrashlytics;
+			sourceTree = "<group>";
+		};
+		90AD97C82BC96FBF00E343A4 /* FirebaseDatabase */ = {
+			isa = PBXGroup;
+			children = (
+				90AD97C42BC96FBF00E343A4 /* FirebaseAppCheckInterop.xcframework */,
+				90AD97C52BC96FBF00E343A4 /* FirebaseDatabase.xcframework */,
+				90AD97C62BC96FBF00E343A4 /* FirebaseSharedSwift.xcframework */,
+				90AD97C72BC96FBF00E343A4 /* leveldb.xcframework */,
+			);
+			path = FirebaseDatabase;
+			sourceTree = "<group>";
+		};
+		90AD97CA2BC96FBF00E343A4 /* FirebaseDynamicLinks */ = {
+			isa = PBXGroup;
+			children = (
+				90AD97C92BC96FBF00E343A4 /* FirebaseDynamicLinks.xcframework */,
+			);
+			path = FirebaseDynamicLinks;
+			sourceTree = "<group>";
+		};
+		90AD97CC2BC96FBF00E343A4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				90AD97CB2BC96FBF00E343A4 /* gRPCCertificates-Cpp.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		90AD97D72BC96FBF00E343A4 /* FirebaseFirestore */ = {
+			isa = PBXGroup;
+			children = (
+				90AD97CC2BC96FBF00E343A4 /* Resources */,
+				90AD97CD2BC96FBF00E343A4 /* absl.xcframework */,
+				90AD97CE2BC96FBF00E343A4 /* FirebaseAppCheckInterop.xcframework */,
+				90AD97CF2BC96FBF00E343A4 /* FirebaseCoreExtension.xcframework */,
+				90AD97D02BC96FBF00E343A4 /* FirebaseFirestore.xcframework */,
+				90AD97D12BC96FBF00E343A4 /* FirebaseFirestoreInternal.xcframework */,
+				90AD97D22BC96FBF00E343A4 /* FirebaseSharedSwift.xcframework */,
+				90AD97D32BC96FBF00E343A4 /* grpc.xcframework */,
+				90AD97D42BC96FBF00E343A4 /* grpcpp.xcframework */,
+				90AD97D52BC96FBF00E343A4 /* leveldb.xcframework */,
+				90AD97D62BC96FBF00E343A4 /* openssl_grpc.xcframework */,
+			);
+			path = FirebaseFirestore;
+			sourceTree = "<group>";
+		};
+		90AD97DF2BC96FBF00E343A4 /* FirebaseFunctions */ = {
+			isa = PBXGroup;
+			children = (
+				90AD97D82BC96FBF00E343A4 /* FirebaseAppCheckInterop.xcframework */,
+				90AD97D92BC96FBF00E343A4 /* FirebaseAuthInterop.xcframework */,
+				90AD97DA2BC96FBF00E343A4 /* FirebaseCoreExtension.xcframework */,
+				90AD97DB2BC96FBF00E343A4 /* FirebaseFunctions.xcframework */,
+				90AD97DC2BC96FBF00E343A4 /* FirebaseMessagingInterop.xcframework */,
+				90AD97DD2BC96FBF00E343A4 /* FirebaseSharedSwift.xcframework */,
+				90AD97DE2BC96FBF00E343A4 /* GTMSessionFetcher.xcframework */,
+			);
+			path = FirebaseFunctions;
+			sourceTree = "<group>";
+		};
+		90AD97E12BC96FBF00E343A4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				90AD97E02BC96FBF00E343A4 /* InAppMessagingDisplayResources.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		90AD97E42BC96FBF00E343A4 /* FirebaseInAppMessaging */ = {
+			isa = PBXGroup;
+			children = (
+				90AD97E12BC96FBF00E343A4 /* Resources */,
+				90AD97E22BC96FBF00E343A4 /* FirebaseABTesting.xcframework */,
+				90AD97E32BC96FBF00E343A4 /* FirebaseInAppMessaging.xcframework */,
+			);
+			path = FirebaseInAppMessaging;
+			sourceTree = "<group>";
+		};
+		90AD97E72BC96FBF00E343A4 /* FirebaseMessaging */ = {
+			isa = PBXGroup;
+			children = (
+				90AD97E52BC96FBF00E343A4 /* FirebaseMessaging.xcframework */,
+				90AD97E62BC96FBF00E343A4 /* GoogleDataTransport.xcframework */,
+			);
+			path = FirebaseMessaging;
+			sourceTree = "<group>";
+		};
+		90AD97EB2BC96FBF00E343A4 /* FirebaseMLModelDownloader */ = {
+			isa = PBXGroup;
+			children = (
+				90AD97E82BC96FBF00E343A4 /* FirebaseMLModelDownloader.xcframework */,
+				90AD97E92BC96FBF00E343A4 /* GoogleDataTransport.xcframework */,
+				90AD97EA2BC96FBF00E343A4 /* SwiftProtobuf.xcframework */,
+			);
+			path = FirebaseMLModelDownloader;
+			sourceTree = "<group>";
+		};
+		90AD97F52BC96FBF00E343A4 /* FirebasePerformance */ = {
+			isa = PBXGroup;
+			children = (
+				90AD97EC2BC96FBF00E343A4 /* FirebaseABTesting.xcframework */,
+				90AD97ED2BC96FBF00E343A4 /* FirebaseCoreExtension.xcframework */,
+				90AD97EE2BC96FBF00E343A4 /* FirebasePerformance.xcframework */,
+				90AD97EF2BC96FBF00E343A4 /* FirebaseRemoteConfig.xcframework */,
+				90AD97F02BC96FBF00E343A4 /* FirebaseRemoteConfigInterop.xcframework */,
+				90AD97F12BC96FBF00E343A4 /* FirebaseSessions.xcframework */,
+				90AD97F22BC96FBF00E343A4 /* FirebaseSharedSwift.xcframework */,
+				90AD97F32BC96FBF00E343A4 /* GoogleDataTransport.xcframework */,
+				90AD97F42BC96FBF00E343A4 /* Promises.xcframework */,
+			);
+			path = FirebasePerformance;
+			sourceTree = "<group>";
+		};
+		90AD97FA2BC96FBF00E343A4 /* FirebaseRemoteConfig */ = {
+			isa = PBXGroup;
+			children = (
+				90AD97F62BC96FBF00E343A4 /* FirebaseABTesting.xcframework */,
+				90AD97F72BC96FBF00E343A4 /* FirebaseRemoteConfig.xcframework */,
+				90AD97F82BC96FBF00E343A4 /* FirebaseRemoteConfigInterop.xcframework */,
+				90AD97F92BC96FBF00E343A4 /* FirebaseSharedSwift.xcframework */,
+			);
+			path = FirebaseRemoteConfig;
+			sourceTree = "<group>";
+		};
+		90AD98002BC96FBF00E343A4 /* FirebaseStorage */ = {
+			isa = PBXGroup;
+			children = (
+				90AD97FB2BC96FBF00E343A4 /* FirebaseAppCheckInterop.xcframework */,
+				90AD97FC2BC96FBF00E343A4 /* FirebaseAuthInterop.xcframework */,
+				90AD97FD2BC96FBF00E343A4 /* FirebaseCoreExtension.xcframework */,
+				90AD97FE2BC96FBF00E343A4 /* FirebaseStorage.xcframework */,
+				90AD97FF2BC96FBF00E343A4 /* GTMSessionFetcher.xcframework */,
+			);
+			path = FirebaseStorage;
+			sourceTree = "<group>";
+		};
+		90AD98032BC96FBF00E343A4 /* Google-Mobile-Ads-SDK */ = {
+			isa = PBXGroup;
+			children = (
+				90AD98012BC96FBF00E343A4 /* GoogleMobileAds.xcframework */,
+				90AD98022BC96FBF00E343A4 /* UserMessagingPlatform.xcframework */,
+			);
+			path = "Google-Mobile-Ads-SDK";
+			sourceTree = "<group>";
+		};
+		90AD98082BC96FBF00E343A4 /* GoogleSignIn */ = {
+			isa = PBXGroup;
+			children = (
+				90AD98042BC96FBF00E343A4 /* AppAuth.xcframework */,
+				90AD98052BC96FBF00E343A4 /* GoogleSignIn.xcframework */,
+				90AD98062BC96FBF00E343A4 /* GTMAppAuth.xcframework */,
+				90AD98072BC96FBF00E343A4 /* GTMSessionFetcher.xcframework */,
+			);
+			path = GoogleSignIn;
+			sourceTree = "<group>";
+		};
+		90AD980E2BC96FBF00E343A4 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				90AD97A22BC96FBF00E343A4 /* FirebaseABTesting */,
+				90AD97AC2BC96FBF00E343A4 /* FirebaseAnalytics */,
+				90AD97AF2BC96FBF00E343A4 /* FirebaseAnalyticsOnDeviceConversion */,
+				90AD97B32BC96FBF00E343A4 /* FirebaseAppCheck */,
+				90AD97B52BC96FBF00E343A4 /* FirebaseAppDistribution */,
+				90AD97BA2BC96FBF00E343A4 /* FirebaseAuth */,
+				90AD97C32BC96FBF00E343A4 /* FirebaseCrashlytics */,
+				90AD97C82BC96FBF00E343A4 /* FirebaseDatabase */,
+				90AD97CA2BC96FBF00E343A4 /* FirebaseDynamicLinks */,
+				90AD97D72BC96FBF00E343A4 /* FirebaseFirestore */,
+				90AD97DF2BC96FBF00E343A4 /* FirebaseFunctions */,
+				90AD97E42BC96FBF00E343A4 /* FirebaseInAppMessaging */,
+				90AD97E72BC96FBF00E343A4 /* FirebaseMessaging */,
+				90AD97EB2BC96FBF00E343A4 /* FirebaseMLModelDownloader */,
+				90AD97F52BC96FBF00E343A4 /* FirebasePerformance */,
+				90AD97FA2BC96FBF00E343A4 /* FirebaseRemoteConfig */,
+				90AD98002BC96FBF00E343A4 /* FirebaseStorage */,
+				90AD98032BC96FBF00E343A4 /* Google-Mobile-Ads-SDK */,
+				90AD98082BC96FBF00E343A4 /* GoogleSignIn */,
+				90AD98092BC96FBF00E343A4 /* Firebase.h */,
+				90AD980A2BC96FBF00E343A4 /* METADATA.md */,
+				90AD980B2BC96FBF00E343A4 /* module.modulemap */,
+				90AD980C2BC96FBF00E343A4 /* NOTICES */,
+				90AD980D2BC96FBF00E343A4 /* README.md */,
+			);
+			name = Firebase;
+			path = ../../../Downloads/Firebase;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9066C1552BC6B41E005C5765 /* Calendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9066C17A2BC6B420005C5765 /* Build configuration list for PBXNativeTarget "Calendar" */;
+			buildPhases = (
+				9066C1522BC6B41E005C5765 /* Sources */,
+				9066C1532BC6B41E005C5765 /* Frameworks */,
+				9066C1542BC6B41E005C5765 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Calendar;
+			productName = Calendar;
+			productReference = 9066C1562BC6B41E005C5765 /* Calendar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9066C1652BC6B420005C5765 /* CalendarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9066C17D2BC6B420005C5765 /* Build configuration list for PBXNativeTarget "CalendarTests" */;
+			buildPhases = (
+				9066C1622BC6B420005C5765 /* Sources */,
+				9066C1632BC6B420005C5765 /* Frameworks */,
+				9066C1642BC6B420005C5765 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9066C1682BC6B420005C5765 /* PBXTargetDependency */,
+			);
+			name = CalendarTests;
+			productName = CalendarTests;
+			productReference = 9066C1662BC6B420005C5765 /* CalendarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9066C16F2BC6B420005C5765 /* CalendarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9066C1802BC6B420005C5765 /* Build configuration list for PBXNativeTarget "CalendarUITests" */;
+			buildPhases = (
+				9066C16C2BC6B420005C5765 /* Sources */,
+				9066C16D2BC6B420005C5765 /* Frameworks */,
+				9066C16E2BC6B420005C5765 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9066C1722BC6B420005C5765 /* PBXTargetDependency */,
+			);
+			name = CalendarUITests;
+			productName = CalendarUITests;
+			productReference = 9066C1702BC6B420005C5765 /* CalendarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9066C14E2BC6B41E005C5765 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					9066C1552BC6B41E005C5765 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					9066C1652BC6B420005C5765 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 9066C1552BC6B41E005C5765;
+					};
+					9066C16F2BC6B420005C5765 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 9066C1552BC6B41E005C5765;
+					};
+				};
+			};
+			buildConfigurationList = 9066C1512BC6B41E005C5765 /* Build configuration list for PBXProject "Calendar" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9066C14D2BC6B41E005C5765;
+			packageReferences = (
+			);
+			productRefGroup = 9066C1572BC6B41E005C5765 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9066C1552BC6B41E005C5765 /* Calendar */,
+				9066C1652BC6B420005C5765 /* CalendarTests */,
+				9066C16F2BC6B420005C5765 /* CalendarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9066C1542BC6B41E005C5765 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9066C1612BC6B420005C5765 /* Preview Assets.xcassets in Resources */,
+				9066C15E2BC6B420005C5765 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9066C1642BC6B420005C5765 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9066C16E2BC6B420005C5765 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9066C1522BC6B41E005C5765 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9066C18C2BC81130005C5765 /* calendarMain.swift in Sources */,
+				903F54CB2BD3EF340015D727 /* timeRemind.swift in Sources */,
+				9066C1882BC810CA005C5765 /* itemWindowView.swift in Sources */,
+				9066C15C2BC6B41E005C5765 /* ContentView.swift in Sources */,
+				9066C15A2BC6B41E005C5765 /* CalendarApp.swift in Sources */,
+				9066C18E2BC823CA005C5765 /* selectedDate.swift in Sources */,
+				90AD98152BD10DD400E343A4 /* selectedTimeView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9066C1622BC6B420005C5765 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9066C16B2BC6B420005C5765 /* CalendarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9066C16C2BC6B420005C5765 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9066C1772BC6B420005C5765 /* CalendarUITestsLaunchTests.swift in Sources */,
+				9066C1752BC6B420005C5765 /* CalendarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9066C1682BC6B420005C5765 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9066C1552BC6B41E005C5765 /* Calendar */;
+			targetProxy = 9066C1672BC6B420005C5765 /* PBXContainerItemProxy */;
+		};
+		9066C1722BC6B420005C5765 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9066C1552BC6B41E005C5765 /* Calendar */;
+			targetProxy = 9066C1712BC6B420005C5765 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9066C1782BC6B420005C5765 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9066C1792BC6B420005C5765 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9066C17B2BC6B420005C5765 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Calendar/Preview Content\"";
+				DEVELOPMENT_TEAM = GNBSRH8ZAL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "--.Calendar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9066C17C2BC6B420005C5765 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Calendar/Preview Content\"";
+				DEVELOPMENT_TEAM = GNBSRH8ZAL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "--.Calendar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9066C17E2BC6B420005C5765 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "--.CalendarTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Calendar.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Calendar";
+			};
+			name = Debug;
+		};
+		9066C17F2BC6B420005C5765 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "--.CalendarTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Calendar.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Calendar";
+			};
+			name = Release;
+		};
+		9066C1812BC6B420005C5765 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "--.CalendarUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Calendar;
+			};
+			name = Debug;
+		};
+		9066C1822BC6B420005C5765 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "--.CalendarUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Calendar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9066C1512BC6B41E005C5765 /* Build configuration list for PBXProject "Calendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9066C1782BC6B420005C5765 /* Debug */,
+				9066C1792BC6B420005C5765 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9066C17A2BC6B420005C5765 /* Build configuration list for PBXNativeTarget "Calendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9066C17B2BC6B420005C5765 /* Debug */,
+				9066C17C2BC6B420005C5765 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9066C17D2BC6B420005C5765 /* Build configuration list for PBXNativeTarget "CalendarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9066C17E2BC6B420005C5765 /* Debug */,
+				9066C17F2BC6B420005C5765 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9066C1802BC6B420005C5765 /* Build configuration list for PBXNativeTarget "CalendarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9066C1812BC6B420005C5765 /* Debug */,
+				9066C1822BC6B420005C5765 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9066C14E2BC6B41E005C5765 /* Project object */;
+}
